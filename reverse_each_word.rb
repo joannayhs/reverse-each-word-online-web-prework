@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  array = []
-  array << string.split
+  array = [string.split]
+  array.flatten
   
 end 
