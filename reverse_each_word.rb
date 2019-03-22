@@ -1,3 +1,5 @@
 def reverse_each_word(string)
-  array = [string.split]
+  array = []
+  array << string.split
+  
 end 
